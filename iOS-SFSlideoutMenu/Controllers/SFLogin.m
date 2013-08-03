@@ -8,8 +8,14 @@
 
 #import "SFLogin.h"
 
-@interface SFLogin ()
+///////////////////////////////////////
+#pragma mark - Notification Constants
+///////////////////////////////////////
+NSString* const NOTIFICATION_AUTHENTICATION_PASSED = @"notification_authentication_passed";
+NSString* const NOTIFICATION_AUTHENTICATION_PASSED_DK_PAGE = @"notification_authentication_passed_dk_page";
 
+
+@interface SFLogin ()
 @end
 
 @implementation SFLogin
@@ -33,6 +39,25 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+//////////////////////////////////////////////////////////////////////////
+#pragma mark - IBActions
+//////////////////////////////////////////////////////////////////////////
+-(IBAction)loginTapped:(id)sender
+{
+    NSLog(@"loginTapped");
+    
+    // Segue user into the application.
+    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    UIViewController* SFRouter = [storyboard instantiateViewControllerWithIdentifier:@"SFRouter"];
+    [self presentViewController:SFRouter animated:NO completion:^
+     {
+         [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFICATION_AUTHENTICATION_PASSED object:nil];
+     }];
+    
+    
 }
 
 @end

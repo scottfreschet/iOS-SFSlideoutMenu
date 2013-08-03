@@ -17,7 +17,16 @@
 		8E1DF74A17AC5DA900A4438F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1DF74917AC5DA900A4438F /* Default@2x.png */; };
 		8E1DF74C17AC5DA900A4438F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1DF74B17AC5DA900A4438F /* Default-568h@2x.png */; };
 		8E1DF74F17AC5DA900A4438F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E1DF74D17AC5DA900A4438F /* MainStoryboard.storyboard */; };
-		8E1DF75217AC5DA900A4438F /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DF75117AC5DA900A4438F /* SFViewController.m */; };
+		8E1DF75B17AC5EBE00A4438F /* SFRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DF75A17AC5EBE00A4438F /* SFRouter.m */; };
+		8E1DF75E17AC5ED200A4438F /* SFViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DF75D17AC5ED200A4438F /* SFViewController1.m */; };
+		8E1DF76117AC5EE200A4438F /* SFViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DF76017AC5EE200A4438F /* SFViewController2.m */; };
+		8E1DF76417AC5EF100A4438F /* SFViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DF76317AC5EF100A4438F /* SFViewController3.m */; };
+		8E1DF76717AC5F1000A4438F /* SFViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DF76617AC5F1000A4438F /* SFViewController4.m */; };
+		8E1DF76A17AC620600A4438F /* SFSlideoutMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DF76917AC620600A4438F /* SFSlideoutMenu.m */; };
+		8E1DF76D17AC65B800A4438F /* SFLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DF76C17AC65B800A4438F /* SFLogin.m */; };
+		8E1DF76F17AC68FC00A4438F /* SFSlideoutTopBar_View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E1DF76E17AC68FC00A4438F /* SFSlideoutTopBar_View.xib */; };
+		8E1DF77217AC69E200A4438F /* Pix_MenuIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E1DF77117AC69E200A4438F /* Pix_MenuIcon.png */; };
+		8E1DF77617AC6CEE00A4438F /* ScreenshotUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1DF77517AC6CEE00A4438F /* ScreenshotUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +44,24 @@
 		8E1DF74917AC5DA900A4438F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8E1DF74B17AC5DA900A4438F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8E1DF74E17AC5DA900A4438F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		8E1DF75017AC5DA900A4438F /* SFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFViewController.h; sourceTree = "<group>"; };
-		8E1DF75117AC5DA900A4438F /* SFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
+		8E1DF75917AC5EBE00A4438F /* SFRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFRouter.h; path = Controllers/SFRouter.h; sourceTree = "<group>"; };
+		8E1DF75A17AC5EBE00A4438F /* SFRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFRouter.m; path = Controllers/SFRouter.m; sourceTree = "<group>"; };
+		8E1DF75C17AC5ED200A4438F /* SFViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFViewController1.h; path = Controllers/SFViewController1.h; sourceTree = "<group>"; };
+		8E1DF75D17AC5ED200A4438F /* SFViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFViewController1.m; path = Controllers/SFViewController1.m; sourceTree = "<group>"; };
+		8E1DF75F17AC5EE200A4438F /* SFViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFViewController2.h; path = Controllers/SFViewController2.h; sourceTree = "<group>"; };
+		8E1DF76017AC5EE200A4438F /* SFViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFViewController2.m; path = Controllers/SFViewController2.m; sourceTree = "<group>"; };
+		8E1DF76217AC5EF100A4438F /* SFViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFViewController3.h; path = Controllers/SFViewController3.h; sourceTree = "<group>"; };
+		8E1DF76317AC5EF100A4438F /* SFViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFViewController3.m; path = Controllers/SFViewController3.m; sourceTree = "<group>"; };
+		8E1DF76517AC5F1000A4438F /* SFViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFViewController4.h; path = Controllers/SFViewController4.h; sourceTree = "<group>"; };
+		8E1DF76617AC5F1000A4438F /* SFViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFViewController4.m; path = Controllers/SFViewController4.m; sourceTree = "<group>"; };
+		8E1DF76817AC620600A4438F /* SFSlideoutMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFSlideoutMenu.h; path = Controllers/SFSlideoutMenu.h; sourceTree = "<group>"; };
+		8E1DF76917AC620600A4438F /* SFSlideoutMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFSlideoutMenu.m; path = Controllers/SFSlideoutMenu.m; sourceTree = "<group>"; };
+		8E1DF76B17AC65B700A4438F /* SFLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFLogin.h; path = Controllers/SFLogin.h; sourceTree = "<group>"; };
+		8E1DF76C17AC65B800A4438F /* SFLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFLogin.m; path = Controllers/SFLogin.m; sourceTree = "<group>"; };
+		8E1DF76E17AC68FC00A4438F /* SFSlideoutTopBar_View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SFSlideoutTopBar_View.xib; path = Controllers/SFSlideoutTopBar_View.xib; sourceTree = "<group>"; };
+		8E1DF77117AC69E200A4438F /* Pix_MenuIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pix_MenuIcon.png; path = Resources/Pix_MenuIcon.png; sourceTree = "<group>"; };
+		8E1DF77417AC6CEE00A4438F /* ScreenshotUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScreenshotUtils.h; path = Utils/ScreenshotUtils.h; sourceTree = "<group>"; };
+		8E1DF77517AC6CEE00A4438F /* ScreenshotUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScreenshotUtils.m; path = Utils/ScreenshotUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +111,9 @@
 				8E1DF74417AC5DA900A4438F /* SFAppDelegate.h */,
 				8E1DF74517AC5DA900A4438F /* SFAppDelegate.m */,
 				8E1DF74D17AC5DA900A4438F /* MainStoryboard.storyboard */,
-				8E1DF75017AC5DA900A4438F /* SFViewController.h */,
-				8E1DF75117AC5DA900A4438F /* SFViewController.m */,
+				8E1DF75817AC5DCB00A4438F /* Controllers */,
+				8E1DF77017AC69D100A4438F /* Resources */,
+				8E1DF77317AC6CA900A4438F /* Utils */,
 				8E1DF73C17AC5DA800A4438F /* Supporting Files */,
 			);
 			path = "iOS-SFSlideoutMenu";
@@ -105,6 +131,45 @@
 				8E1DF74B17AC5DA900A4438F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E1DF75817AC5DCB00A4438F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E1DF76B17AC65B700A4438F /* SFLogin.h */,
+				8E1DF76C17AC65B800A4438F /* SFLogin.m */,
+				8E1DF75917AC5EBE00A4438F /* SFRouter.h */,
+				8E1DF75A17AC5EBE00A4438F /* SFRouter.m */,
+				8E1DF76817AC620600A4438F /* SFSlideoutMenu.h */,
+				8E1DF76917AC620600A4438F /* SFSlideoutMenu.m */,
+				8E1DF76E17AC68FC00A4438F /* SFSlideoutTopBar_View.xib */,
+				8E1DF75C17AC5ED200A4438F /* SFViewController1.h */,
+				8E1DF75D17AC5ED200A4438F /* SFViewController1.m */,
+				8E1DF75F17AC5EE200A4438F /* SFViewController2.h */,
+				8E1DF76017AC5EE200A4438F /* SFViewController2.m */,
+				8E1DF76217AC5EF100A4438F /* SFViewController3.h */,
+				8E1DF76317AC5EF100A4438F /* SFViewController3.m */,
+				8E1DF76517AC5F1000A4438F /* SFViewController4.h */,
+				8E1DF76617AC5F1000A4438F /* SFViewController4.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8E1DF77017AC69D100A4438F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E1DF77117AC69E200A4438F /* Pix_MenuIcon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E1DF77317AC6CA900A4438F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8E1DF77417AC6CEE00A4438F /* ScreenshotUtils.h */,
+				8E1DF77517AC6CEE00A4438F /* ScreenshotUtils.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +229,8 @@
 				8E1DF74A17AC5DA900A4438F /* Default@2x.png in Resources */,
 				8E1DF74C17AC5DA900A4438F /* Default-568h@2x.png in Resources */,
 				8E1DF74F17AC5DA900A4438F /* MainStoryboard.storyboard in Resources */,
+				8E1DF76F17AC68FC00A4438F /* SFSlideoutTopBar_View.xib in Resources */,
+				8E1DF77217AC69E200A4438F /* Pix_MenuIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +243,14 @@
 			files = (
 				8E1DF74217AC5DA900A4438F /* main.m in Sources */,
 				8E1DF74617AC5DA900A4438F /* SFAppDelegate.m in Sources */,
-				8E1DF75217AC5DA900A4438F /* SFViewController.m in Sources */,
+				8E1DF75B17AC5EBE00A4438F /* SFRouter.m in Sources */,
+				8E1DF75E17AC5ED200A4438F /* SFViewController1.m in Sources */,
+				8E1DF76117AC5EE200A4438F /* SFViewController2.m in Sources */,
+				8E1DF76417AC5EF100A4438F /* SFViewController3.m in Sources */,
+				8E1DF76717AC5F1000A4438F /* SFViewController4.m in Sources */,
+				8E1DF76A17AC620600A4438F /* SFSlideoutMenu.m in Sources */,
+				8E1DF76D17AC65B800A4438F /* SFLogin.m in Sources */,
+				8E1DF77617AC6CEE00A4438F /* ScreenshotUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

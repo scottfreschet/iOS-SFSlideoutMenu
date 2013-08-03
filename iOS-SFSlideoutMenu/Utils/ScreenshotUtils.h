@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface ScreenshotUtils : NSObject
+
+-(UIImage*)getScreenshotImage:(UIViewController*)viewController;
 
 @end

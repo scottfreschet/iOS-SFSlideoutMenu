@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+// Notification Constants
+extern NSString* const NOTIFICATION_AUTHENTICATION_PASSED;
+
 @interface SFLogin : UIViewController
+
+// IBOutlets.
+@property (strong, nonatomic) IBOutlet UIButton* xButton_Login;
+
+// IBActions.
+-(IBAction)loginTapped:(id)sender;
+
 
 @end
