@@ -1,5 +1,5 @@
 //
-//  SFViewController.h
+//  SFLogin.h
 //  iOS-SFSlideoutMenu
 //
 //  Created by Scott Freschet on 8/2/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SFViewController : UIViewController
+@interface SFLogin : UIViewController
 
 @end
